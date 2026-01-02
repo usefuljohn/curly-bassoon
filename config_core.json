@@ -1,0 +1,50 @@
+{
+    "main_asset": {
+        "symbol": "CORE",
+        "description": "USD Stable Portfolio"
+    },
+    "pools": [
+        {
+            "id": "1.19.473",
+            "asset_a": { "symbol": "XBTSX.USDT", "precision": 6 },
+            "asset_b": { "symbol": "XBTSX.XAUT", "precision": 6 },
+            "label": "XAUT"
+        },
+        {
+            "id": "1.19.148",
+            "asset_a": { "symbol": "XBTSX.USDT", "precision": 6 },
+            "asset_b": { "symbol": "XBTSX.RVN", "precision": 4 },
+            "label": "RVN"
+        },
+        {
+            "id": "1.19.465",
+            "asset_a": { "symbol": "XBTSX.USDC", "precision": 6 },
+            "asset_b": { "symbol": "BTWTY.EOS", "precision": 4 },
+            "label": "A"
+        },
+        {
+            "id": "1.19.116",
+            "asset_a": { "symbol": "BTWTY", "precision": 5 },
+            "asset_b": { "symbol": "XBTSX.USDC", "precision": 6 },
+            "label": "BTWTY"
+        },
+        {
+            "id": "1.19.495",
+            "asset_a": { "symbol": "XBTSX.USDT", "precision": 6 },
+            "asset_b": { "symbol": "BTWTY.EOS", "precision": 4 },
+            "label": "A"
+        },
+        {
+            "id": "1.19.211",
+            "asset_a": { "symbol": "XBTSX.USDT", "precision": 6 },
+            "asset_b": { "symbol": "XBTSX.USDC", "precision": 6 },
+            "label": "USDT/USDC"
+        },
+        {
+            "id": "1.19.248",
+            "asset_a": { "symbol": "TWENTIX", "precision": 5 },
+            "asset_b": { "symbol": "XBTSX.USDC", "precision": 6 },
+            "label": "TWENTIX"
+        }
+    ]
+}

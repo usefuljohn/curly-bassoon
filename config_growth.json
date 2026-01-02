@@ -1,0 +1,31 @@
+{
+    "main_asset": {
+        "symbol": "TWENTIX",
+        "description": "TWENTIX Liquidity Network"
+    },
+    "pools": [
+        {
+            "id": "1.19.42",
+            "asset_a": { "symbol": "TWENTIX", "precision": 5 },
+            "asset_b": { "symbol": "HONEST.USD", "precision": 4 },
+            "main_asset_side": "A",
+            "label": "USD Reference",
+            "is_price_reference": true,
+            "skip_valuation": true
+        },
+        {
+            "id": "1.19.0",
+            "asset_a": { "symbol": "BTS", "precision": 5 },
+            "asset_b": { "symbol": "TWENTIX", "precision": 5 },
+            "main_asset_side": "B",
+            "label": "BTS + TWENTIX"
+        },
+        {
+            "id": "1.19.277",
+            "asset_a": { "symbol": "BTS", "precision": 5 },
+            "asset_b": { "symbol": "BTWTY.EOS", "precision": 4 },
+            "main_asset_side": "A",
+            "label": "BTS + A"
+        }
+    ]
+}
